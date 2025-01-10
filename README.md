@@ -4,7 +4,7 @@ Welcome to my repository for my custom Espanso configuration and matches.
 
 ## Overview
 
-This repository contains my personal configuration files and match files for [Espanso](https://espanso.org/), a text expander tool that helps you save time by typing less.
+This repository contains my personal configuration files and match files for [Espanso](https://espanso.org/){:target="_blank"}, a text expander tool that helps you save time by typing less.
 
 ## Structure
 

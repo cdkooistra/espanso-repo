@@ -1,0 +1,11 @@
+# This file contains time-related triggers.
+
+matches:
+  - trigger: ":today"
+    replace: "{{mytime}}"
+    vars:
+      - name: mytime
+        type: date
+        params:
+          format: "%Y%m%d"
+  

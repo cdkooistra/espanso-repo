@@ -1,0 +1,8 @@
+# This file contains mail related triggers that are useful when writing emails.
+
+matches:
+  - trigger: ":kr"
+    replace: "Kind Regards, \n"
+  - trigger: ":mvg"
+    replace: "Met vriendelijke groet, \n"
+
