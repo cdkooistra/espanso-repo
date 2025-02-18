@@ -18,8 +18,10 @@ matches:
     replace: "∅"
   - trigger: ":union"
     replace: "∪"
-  - trigger: ":intersection"
+  - trigger: ":inter"
     replace: "∩"
+  - trigger: ":meet"
+    replace: "⊓"
 
   # Logic symbols
   - trigger: ":not"
@@ -66,6 +68,8 @@ matches:
     replace: "Δ"
   - trigger: ":sum"
     replace: "∑"
+  - trigger: ":neq"
+    replace: "≠"
   
   # Greek letters
   - trigger: ":alpha"
@@ -88,7 +92,7 @@ matches:
     replace: "κ"
   - trigger: ":lambda"
     replace: "λ"
-  - trigger: ":mu"
+  - trigger: ":micro"
     replace: "μ"
   - trigger: ":xi"
     replace: "ξ"
