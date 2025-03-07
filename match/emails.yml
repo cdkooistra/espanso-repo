@@ -5,4 +5,3 @@ matches:
     replace: "Kind Regards, \n"
   - trigger: ":mvg"
     replace: "Met vriendelijke groet, \n"
-

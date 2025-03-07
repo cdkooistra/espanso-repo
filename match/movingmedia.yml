@@ -1,0 +1,33 @@
+# This file contains common triggers I use at work for MM
+# For date, we use date script from: https://github.com/cdkooistra/rust-cli
+
+matches:
+  - trigger: ":slacontrole"
+    replace: "Overzicht SLA controle week {{output}}"
+    vars:
+      - name: output
+        type: script
+        params: 
+          args: ["%CONFIG%/scripts/date.exe", "%V - %Y"]
+
+  - trigger: ":slatoggl"
+    replace: "SLA onderhoud & controle #{{clipb}}"
+    vars:
+      - name: "clipb"
+        type: "clipboard"
+
+  - trigger: ":encrypt"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: script
+        params:
+          args: [python, "%CONFIG%/scripts/encrypt.py"]
+  
+  - trigger: ":decrypt"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: script
+        params:
+          args: [python, "%CONFIG%/scripts/decrypt.py"]

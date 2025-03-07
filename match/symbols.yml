@@ -70,6 +70,8 @@ matches:
     replace: "∑"
   - trigger: ":neq"
     replace: "≠"
+  - trigger: ":approx"
+    replace: "≈"
   
   # Greek letters
   - trigger: ":alpha"
