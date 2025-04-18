@@ -2,6 +2,6 @@
 
 matches:
   - trigger: ":kr"
-    replace: "Kind Regards, \n"
+    replace: "Kind Regards,"
   - trigger: ":mvg"
-    replace: "Met vriendelijke groet, \n"
+    replace: "Met vriendelijke groet,"
